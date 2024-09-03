@@ -1,3 +1,2 @@
-# Ignore pdf and gz files
-*.pdf
-*.gz
+# Ignore pdf files
+PDF/
