@@ -1,0 +1,58 @@
+\documentclass{article}
+
+
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{hyperref}
+\usepackage{float}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper,left=3.17cm,right=3.17cm,top=2.54cm,bottom=2.54cm]{geometry}
+\usepackage{crop,graphicx,amsmath,array,color,amssymb,fancyhdr,lineno}
+\usepackage{flushend,stfloats,amsthm,chngpage,times,,lipsum,lastpage} 
+\usepackage{calc,listings,color,wrapfig,tabularx,longtable,enumitem}
+\usepackage[style=numeric-comp,backend=biber, sorting=nty]{biblatex}
+\usepackage{lineno}
+\renewcommand{\baselinestretch}{1.5}
+\addbibresource{Refs.bib}
+
+\pagestyle{fancy}
+\fancypagestyle{plain}{
+  \renewcommand{\headrulewidth}{0pt}
+  \fancyhf{}
+}
+
+\title{
+  \begin{center}
+    Reporte: Modelo de Machine Learning para predicción de supervivencia con datos del Titanic \\[0.5 cm]
+    
+  \end{center}
+}
+
+\begin{document}
+
+\input{Title/title.tex}
+
+\sffamily
+
+\fancyhf{}
+\fancyhead[L]{Reporte Técnico}
+\fancyhead[R]{}
+\fancyfoot[R]{ \bf\thepage\ \rm }%
+
+
+\section{Hello siso! money money moneyyy} % creates a section
+
+\input{Main/Abstract}
+%\input{Main/Introduccion}
+%\input{Main/Planteamiento}
+%\input{Main/Conjunto}
+%\input{Main/Limpieza}
+%\input{Main/Seleccionmodelo}
+%\input{Main/Conclusiones}
+%\input{Main/Evaluación}
+
+\newpage
+\printbibliography[heading=bibnumbered]
+
+\end{document}
